@@ -1,1 +1,228 @@
-Hello, github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jude Lu · Homepage</title>
+    <!-- Academic style – inspired by Ju Ren's homepage -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #eeeeee;
+            font-family: 'Georgia', 'Times New Roman', Times, 'Helvetica', 'Arial', sans-serif;
+            color: #000000;
+            line-height: 1.5;
+            margin: 30px 60px;
+            padding: 10px 30px 30px 30px;
+            background-color: #ffffff;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* hyperlinks */
+        a {
+            color: #1f82a9;
+            text-decoration: underline;
+            background: transparent;
+            cursor: pointer;
+        }
+        a:hover {
+            color: #006699;
+            text-decoration: underline;
+        }
+
+        /* table layout (classic academic style) */
+        table {
+            width: 100%;
+            background-color: #ffffff;
+            border-collapse: collapse;
+            margin-bottom: 1.2rem;
+        }
+        td {
+            vertical-align: top;
+            padding: 8px 0;
+        }
+
+        /* headings */
+        h1, h2, h3, h4 {
+            font-family: 'Georgia', 'Helvetica', 'Arial', sans-serif;
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 1.2rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 0.2rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            margin-bottom: 0.25rem;
+            font-weight: 600;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #cccccc;
+            margin: 1rem 0;
+        }
+
+        /* news list */
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        /* publication lists */
+        .pub-list {
+            list-style-type: none;
+            margin-left: 0;
+        }
+        .pub-list li {
+            margin-bottom: 0.6rem;
+        }
+
+        /* profile image */
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        /* responsive */
+        @media (max-width: 780px) {
+            body {
+                margin: 20px 20px;
+                padding: 10px 15px;
+            }
+            td {
+                display: block;
+                width: 100%;
+            }
+            .profile-img {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- header section: name + affiliation + photo (inspired by Ju Ren's layout) -->
+<table>
+    <tbody>
+        <tr>
+            <td rowspan="3" style="width: 160px; text-align: center; vertical-align: top;">
+                <!-- replace with your own photo (e.g., myphoto.jpg) -->
+                <img src="https://placehold.co/150x200/f0f0f0/888?text=Jude+Lu" alt="Jude Lu" class="profile-img">
+            </td>
+            <td style="vertical-align: middle;">
+                <h1>Jude Lu</h1>
+                <!-- optional: PhD or other title -->
+                <!-- <h1>&nbsp;&nbsp;Jude Lu&nbsp;</h1> -->
+             </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Department of Computer Science and Technology</h3>
+                <h3>Example University / Your Institution</h3>
+                Address: Building XX, Street Name, City, Postal Code, Country<br><br>
+                Email: jude.lu AT example.edu
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<!-- ========== NEWS section ========== -->
+<h2>📰 News</h2>
+<ul>
+    <li><b>May 2026</b> – Our paper on "Efficient Large Multimodal Models" was accepted to <i>CVPR 2026</i>.</li>
+    <li><b>Apr. 2026</b> – I will give a talk at the <i>Edge Computing Symposium</i> on distributed AI.</li>
+    <li><b>Feb. 2026</b> – Two papers accepted to <i>ICLR 2026</i> and <i>WWW 2026</i>.</li>
+    <li><b>Dec. 2025</b> – Serving as Program Committee member for <i>ACM MobiCom 2026</i>.</li>
+    <li><b>Nov. 2025</b> – One paper conditionally accepted to <i>ACM KDD 2026</i>.</li>
+</ul>
+
+<!-- ========== BIOGRAPHY ========== -->
+<h2>📖 Brief Biography</h2>
+<p>
+I am currently an associate professor (or postdoc / researcher) in the Department of Computer Science 
+at Example University. Before that, I obtained my Ph.D. from XYZ University in 2024, advised by Prof. 
+Somebody. My research interests include <b>machine learning systems, edge intelligence, and Internet-of-Things</b>. 
+I am a member of the IEEE and ACM.
+</p>
+<p>
+I am always looking for self-motivated students and collaborators. Feel free to contact me if you are 
+interested in my research areas.
+</p>
+
+<!-- ========== RESEARCH INTERESTS ========== -->
+<h2>🔬 Research Interests</h2>
+<ul>
+    <li>Edge Computing & Distributed AI</li>
+    <li>Efficient Deep Learning / LLM Inference</li>
+    <li>IoT Sensing and Security</li>
+    <li>Federated Learning & Reinforcement Learning</li>
+</ul>
+
+<!-- ========== SELECTED PUBLICATIONS ========== -->
+<h2>📄 Selected Publications  [<a href="#">Full List</a>]</h2>
+
+<h3>📘 Book / Book Chapter</h3>
+<ul class="pub-list">
+    <li>Jude Lu, Y. Zhang, "Advanced Topics in Edge Intelligence," <i>Tsinghua University Press</i>, 2025 (in Chinese).</li>
+    <li>Jude Lu, N. Zhang, X. Shen, "Energy-Efficient Spectrum Management for Cognitive Networks," <i>Springer</i>, 2024.</li>
+    <li>Chapter in "Encyclopedia of Wireless Networks" – "Cognitive Radio Sensor Networks," <i>Springer</i>, 2023.</li>
+</ul>
+
+<h3>📌 Journal & Conference Papers (selected)</h3>
+<ul class="pub-list">
+    <li><b>[CVPR'26]</b> C. Du, J. Liu, Y. Zhang, X. Chen, <b>J. Lu</b>. “CoIn: Coverage and Informativeness-Guided Token Reduction for Efficient Large Multimodal Models,” <i>CVPR</i>, Denver, USA, 2026.</li>
+    <li><b>[ICLR'26]</b> N. Qiao, S. Yue, S. Wang, Y. Deng, <b>J. Lu</b>. “Less is more: Clustered Cross-Covariance Control for Offline RL,” <i>ICLR</i>, Rio de Janeiro, Brazil, 2026.</li>
+    <li><b>[ACM KDD'26]</b> Y. Deng, T. Jiang, Z. Ma, H. Wu, Y. Fu, H. Pan, S. Yue, <b>J. Lu</b>. “Accelerating Graph-Based RAG Retrieval via Locality-Aware Device–Cloud Collaboration,” <i>ACM KDD</i>, Jeju, South Korea, 2026.</li>
+    <li><b>[IEEE INFOCOM'25]</b> Y. Fu, W. Zhu, Y. Wu, H. Pan, Y. Zhao, <b>J. Lu</b> et al. “EarAuth: Practical Cardiac Vibration Authentication on COTS Earbuds,” <i>IEEE INFOCOM</i>, Tokyo, Japan, 2025.</li>
+    <li><b>[ACM MobiCom'25]</b> Y. Zhao, Y. Fu, Z. Feng, H. Pan, Y. Deng, Y. Zhang, <b>J. Lu</b>. “MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation,” <i>ACM MobiCom</i>, Austin, Texas, 2025.</li>
+    <li><b>[USENIX NSDI'25]</b> J. Lu, J. Li, Y. Zhang, <b>J. Lu</b>. “Bridging Storage and Execution: A Semantic Virtual Bus for On-Demand Application Streaming,” <i>USENIX NSDI</i>, Renton, WA, 2025.</li>
+    <li><b>[IEEE TMC]</b> H. Pan, Y. Fu, Q. Ye, Y-C Chen, <b>J. Lu</b>. “MagicWrite: One-Dimensional Acoustic Tracking-Based Air Writing System,” <i>IEEE Transactions on Mobile Computing</i>, accepted, 2024.</li>
+    <li><b>[ACM SenSys'24]</b> Y. Lu, H. Pan, D. Ding, Y. Fu, L. Zhang, F. Tan, R. Wang, Y. Chen, G. Xue, <b>J. Lu</b>. “M3Cam: Extreme Super-resolution via Multi-Modal Optical Flow for Mobile Cameras,” <i>ACM SenSys</i>, Hangzhou, China, 2024.</li>
+    <li><b>[ICML'24]</b> S. Yue, X. Hua, <b>J. Lu</b>, S. Lin, J. Zhang, Y. Zhang. “OLLIE: Imitation Learning from Offline Pretraining to Online Finetuning,” <i>ICML</i>, Vienna, Austria, 2024.</li>
+</ul>
+
+<!-- ========== ACADEMIC SERVICE ========== -->
+<h2>📌 Academic Service</h2>
+<ul>
+    <li>TPC Member: IEEE INFOCOM 2025, ACM MobiSys 2026, ICDCS 2025</li>
+    <li>Reviewer: IEEE TMC, ToN, TIFS, ACM IMWUT, IEEE IoT-J</li>
+</ul>
+
+<!-- ========== CONTACT / LINKS ========== -->
+<h2>📫 Contact & Links</h2>
+<ul>
+    <li><b>Email</b>: jude.lu AT example.edu</li>
+    <li><b>GitHub</b>: <a href="https://github.com/jude-lu" target="_blank">github.com/jude-lu</a></li>
+    <li><b>Google Scholar</b>: <a href="#">Jude Lu – Google Scholar</a></li>
+    <li><b>LinkedIn</b>: <a href="#">linkedin.com/in/jude-lu</a></li>
+    <li><b>Address</b>: FIT Building, Tsinghua Road, Beijing, China (or your address)</li>
+</ul>
+
+<hr>
+<p style="font-size:0.85rem; text-align:center; margin-top:1.5rem;">© 2026 Jude Lu | Last updated: May 2026</p>
+
+</body>
+</html>
